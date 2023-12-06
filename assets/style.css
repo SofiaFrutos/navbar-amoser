@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Overpass:ital,wght@1,200&display=swap");
+:root {
+  --background: #dcc6bc;
+  --second: #c58659;
+  --third: #f4d1ae;
+  --forth: #000022;
+  --fifth: #637081;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "overpass", sans-serif;
+}
+header {
+  background-color: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: var(--forth);
+}
+nav {
+  display: flex;
+  gap: 50px;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+.shop {
+  width: 20px;
+  height: 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+a {
+  color: var(--forth);
+}
