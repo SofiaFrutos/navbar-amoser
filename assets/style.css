@@ -30,25 +30,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 50px;
 }
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
 }
 .shop {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 nav {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .navbar {
   display: flex;
-  gap: 20px;
-  font-size: 20px;
+  gap: 50px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -60,63 +60,197 @@ nav {
 
 main {
   background-color: var(--primero);
-  height: 1000px;
-  padding: 50px;
+  height: auto;
+  width: auto;
+  padding: 40px;
   display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
 h1 {
   color: var(--color-typo-three);
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 900;
-  width: 600px;
-  height: 100px;
+  width: 650px;
+  height: 150px;
 }
 
 p[class~="texto-1"] {
-  width: 500px;
-  height: 50px;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--color-typo-one);
   font-weight: 500;
-  margin-bottom: 200px;
-  margin-top: 30px;
-  line-height: 35px;
+  line-height: 40px;
+  width: 600px;
+  height: 150px;
+  margin-bottom: 180px;
 }
 
 .hero-link {
   background-color: #5f5258;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   color: #ebebeb;
-  margin: 10px;
+  font-size: 25px;
+  margin: 20px;
 }
 
-.hero-card {
-  background-color: var(--bg-boton);
-  width: 500px;
-  height: 500px;
+.hero-card img {
+  max-width: 550px;
+  max-height: 550px;
+  border-radius: 10px;
+}
+
+.hero-section,
+.hero-section2 {
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+
+  margin-bottom: 300px;
+  margin-top: 200px;
+}
+
+.textito p {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #472d29;
+  margin-bottom: 300px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #361f04;
+}
+.card-text div {
+  background-color: var(--segundo);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-}
-.hero-card img {
-  width: 450px;
-  height: 450px;
-  border-radius: 10px;
 }
 
-.hero-section {
+.centrate {
   display: flex;
-  gap: 300px;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
 }
 
-h4 {
-  width: 1200px;
-  margin: 300px;
+.section-card-info {
+  display: flex;
+  justify-content: center;
+}
+.card-info {
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+  max-width: 3000px;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  gap: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+.caja img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.caja p {
+  font-weight: 500;
+  font-size: 30px;
+  color: #361f04;
   text-align: center;
+}
+
+.caja h3 {
+  font-weight: 800;
+  font-size: 40px;
+  color: #361f04;
+}
+
+.redes-sociales img {
+  width: 100px;
+  margin: 50px 0;
+}
+
+.foto-logo img {
+  width: 300px;
+}
+
+.foto-logo {
+  margin-top: 250px;
+  margin-right: 100px;
+}
+
+.contacto img {
+  width: 40px;
+}
+
+.centrate p {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.contacto-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacto p {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 40px;
+  color: #361f04;
+}
+
+h6 {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  color: #6a3e37;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contacto1 {
+  margin-top: 200px;
+}
+
+footer {
+  background-color: var(--segundo);
+  text-align: center;
+  font-weight: bold;
   font-size: 20px;
+  margin: 0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+a {
+  color: #361f04;
 }
